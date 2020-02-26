@@ -13,10 +13,10 @@ class ApplicationController < Sinatra::Base
 
     attr_accessor :name, :breed, :age
 
-    def initialize(attributes)
-      @name = :name
-      @breed = :breed
-      @age = :age
+    def initialize(name, age, breed)
+      @name = name
+      @breed = breed
+      @age = age
     end
   end
 end
