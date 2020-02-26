@@ -18,4 +18,5 @@ class ApplicationController < Sinatra::Base
       @breed = breed
       @age = age
     end
+  end
 end
